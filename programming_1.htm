@@ -56,19 +56,17 @@
     
         <br>
     
-        <div class='container'> 
+        <div class="container">  
             
             <pre class="brush:js">
-    
+            //Complexity O(n^2)
             int myAlgorithm6(char *s){
             int c=0;
-    
-            for(int i=0 ; i < strlen(s) ; i++)
-            {
+            for(int i=0 ; i < strlen(s) ; i++){
                 if(s[i]=='a') 
                     c++;
             }
-            return c;
+                return c;
             }
         </div>
     
@@ -84,6 +82,21 @@
             একটি ভ্যারিয়েবলের রেখে তারপর সেটা দিয়ে লুপ চালাতে হবে,তাহলে O(|s|)
              এ লুপ চলবে।
         </p><br>
+
+        <div class="container"> 
+            <pre class="brush:js">
+            //Complexity O(n)
+            int myAlgorithm6(char *s){
+            int c=0;
+            int len = strlen(s);
+            for(int i=0 ; i < len ; i++){
+                if(s[i]=='a') 
+                    c++;
+            }
+                return c;
+            }
+        </div>
+        <br><br>
              Credit - <a href="http://www.shafaetsplanet.com/?p=1313" target="_blank">Shafaet's Planet</a>
     
         </p>

@@ -25,8 +25,12 @@ body::-webkit-scrollbar-thumb{
 /*scroll bar end*/
 
 .navbar-style{
-    background-color: #63a4ff;
-    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    /* background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%); */
+	/*2.*/
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
 
 .logo{
@@ -54,8 +58,23 @@ ul li a:hover{
     /* background-color: #abe9cd;
     background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
 
-    background-color: #70a1ff;
-    background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%);
+    /* background-color: #70a1ff;
+    background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%); */
+
+	background: #757F9A;  
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  
+	background: linear-gradient(to right, #D7DDE8, #757F9A); 
+	
+	/* background: #8e9eab;  
+	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  
+	background: linear-gradient(to bottom, #eef2f3, #8e9eab); */
+	
+	
+	
+	
+	
+	
+
 
     text-decoration: none;
 }

@@ -577,25 +577,6 @@ pre {
 
 
 
-/*time start*/
-
-.clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: black;
-    font-size: 20px;
-    font-family: 'Black Ops One', cursive;
-    font-weight: lighter;
-    letter-spacing: 7px;
-    padding-top: 55px;
-    transition: 5s ease;
-}
-
-/*time end*/
-
-
 
 /*random*/
 
@@ -613,17 +594,6 @@ pre {
 .previous:hover{
 	opacity: .5;
 }
-
-
-footer {
-	text-align: center;
-	padding: 3px;
-	background-color: black;
-	color: white;
-	bottom: 0 !important;
-  }
-
-
 
   .nav-link{
 	  margin-top: 0 !important;
@@ -643,3 +613,42 @@ footer {
   }
 
 
+
+
+  /* Footer Css */
+
+footer{
+	background-color: #33383c;
+	max-height: 300px;
+}
+
+hr.new1 {
+	border-top: 1px solid white;
+  }
+
+.footer-logo{
+	font-family: 'Black Ops One', cursive;
+	color: white;
+	font-size: 75px;
+}
+
+.footer-header{
+	font-family: 'Rajdhani';
+	font-weight: bold;
+	text-align: left;
+}
+.footer-ul{
+	list-style-type: none;
+	text-align: left;
+}
+.col{
+	text-align: left;
+}
+
+.fa-envelope-square{
+	font-size: 25px;
+}
+
+.fa-fa-phone{
+	font-size: 25px;
+}

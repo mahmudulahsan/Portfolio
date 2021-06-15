@@ -620,6 +620,7 @@ pre {
 footer{
 	background-color: #33383c;
 	height: auto;
+	padding-bottom: 40px;
 }
 
 hr.new1 {
@@ -651,4 +652,19 @@ hr.new1 {
 
 .fa-fa-phone{
 	font-size: 25px;
+}
+
+.footer-links{
+	text-decoration: none !important;
+	color: white !important;
+	font-weight: lighter;
+	padding-top: 0 !important;
+	/* transition: 1s; */
+}
+
+.footer-links:hover{
+	background: none;
+	font-weight: bold !important;
+	/* text-decoration: underline !important; */
+	/* color: #121417 !important; */
 }

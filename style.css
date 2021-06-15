@@ -629,4 +629,18 @@ footer {
 	  margin-top: 0 !important;
   }
 
+  .blog-header{
+	  color: #d6e3f6;
+	  text-decoration: dotted;
+  }
+
+  .blog-header-links{
+	  color: #d6e3f6;
+	  font-size: 30px;
+  }
+  .blog-header-links:hover{
+	  text-decoration: underline;
+	  color: white;
+  }
+
 

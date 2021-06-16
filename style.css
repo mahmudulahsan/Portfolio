@@ -618,7 +618,7 @@ pre {
   /* Footer Css */
 
 footer{
-	background-color: #33383c;
+	background-color: #222222;
 	height: auto;
 	padding-bottom: 40px;
 }
@@ -659,7 +659,6 @@ hr.new1 {
 	color: white !important;
 	font-weight: lighter;
 	padding-top: 0 !important;
-	/* transition: 1s; */
 }
 
 .footer-links:hover{
@@ -668,3 +667,14 @@ hr.new1 {
 	/* text-decoration: underline !important; */
 	/* color: #121417 !important; */
 }
+
+.lang-c{
+	border: 0; 
+	margin-bottom: 0;
+	font-size: 17px;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+

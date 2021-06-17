@@ -672,7 +672,7 @@ hr.new1 {
 .lang-c{
 	border: 0; 
 	margin-bottom: 0;
-	font-size: 17px;
+	/* font-size: 17px; */
 	padding-bottom: 0;
 	padding-right: 42.5px;
 	padding-top: 0;

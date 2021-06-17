@@ -63,6 +63,7 @@ pre {
   padding: 2.5em;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  font-size: 17px;
 }
 
 pre code {
@@ -121,10 +122,10 @@ pre code:after {
 
 @media (max-width: 800px) {
   pre {
-    font-size: 10px;
+    font-size: 12px;
   }
   .window {
-    width: 70%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=syntax.css.map */

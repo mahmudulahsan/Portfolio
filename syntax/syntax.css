@@ -121,7 +121,7 @@ pre code:after {
 
 @media (max-width: 800px) {
   pre {
-    font-size: 12px;
+    font-size: 14px;
   }
   .window {
     width: 100%;

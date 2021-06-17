@@ -24,12 +24,11 @@
           flex: 1;
   text-align: center;
   padding: 0.75em;
-  font-weight: bold;
 }
 
 .icons {
   padding: 0.75em;
-  position: relative;
+  position: absolute;
 }
 
 .icons span {

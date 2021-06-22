@@ -65,11 +65,11 @@ pre {
   font-size: 17px;
 }
 
-pre code {
+pre pre {
   font: bold 1em/1.75 "Source Code Pro", monospace;
 }
 
-pre code:after {
+pre pre:after {
   -webkit-animation: blink 0.9s infinite;
           animation: blink 0.9s infinite;
   font: initial;

@@ -253,47 +253,54 @@ hr.new1 {
 }
 
 .int{
-	color: #c792ea;
+	color: #09a3d5;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
 .punc{
 	color: #89ddff;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
 .main-return{
-	color: #7ca2f3;
+	color: white;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	font-weight: lighter !important;
 	font-size: 17px;
 }
 .comment{
 	color: #999;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
 .number{
 	color: #e4514f;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
 .text{
 	color: #fff;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
 .printf{
-	color: #ffda96;
+	color: #fff;
 	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 17px;
 }
+@media(max-width: 680px){
+	.printf, .punc, .main-return, .comment, .number, .text, .int{
+		font-size: 13px;
+	  }
+}
+
+
 
 
 

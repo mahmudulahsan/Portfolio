@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -25,16 +28,6 @@ body::-webkit-scrollbar-thumb{
 /*scroll bar end*/
 
 .navbar-style{
-    /* background-color: #63a4ff;
-    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%); */
-	
-	/*2.*/
-
-	/* background: #E0EAFC;  
-	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-	background: linear-gradient(to right, #CFDEF3, #E0EAFC);  */
-
-	/*3*/
 	background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
 }
 
@@ -54,26 +47,9 @@ ul li a{
     padding-top: 15px !important;
     margin-top: 70px !important;
     font-weight: bolder;
-    /* transition: .5s ease; */
 }
 ul li a:hover{
     color: #121417;
-    /* background: #f1faee !important; */
-
-    /* background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
-
-    /* background-color: #70a1ff;
-    background-image: linear-gradient(315deg, #70a1ff 0%, #c2c0c0 74%); */
-
-	/* background: #757F9A;  
-	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  
-	background: linear-gradient(to right, #D7DDE8, #757F9A);  */
-	
-	/* background: #8e9eab;  
-	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  
-	background: linear-gradient(to bottom, #eef2f3, #8e9eab); */
-
 	background-color: #303b46 !important;
 	color: white !important;
 	
@@ -83,7 +59,6 @@ ul li a:hover{
 }
 
 .icon-bar{
-    /* background: black; */
     background-color: #7f5a83;
     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
@@ -113,7 +88,6 @@ ul li a:hover{
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    /* transition: .3s; */
   }
   
   .fa:hover {
@@ -171,21 +145,23 @@ ul li a:hover{
 
   .blog-header{
 	  color: #d6e3f6;
+	  font-family: 'Hind Siliguri', sans-serif;
   }
 
   .blog-header-links{
 	  color: #d6e3f6;
-	  font-size: 30px;
+	  font-size: 35px;
+	  font-family: 'Hind Siliguri', sans-serif;
   }
   .blog-header-links:hover{
 	  text-decoration: underline;
 	  color: white;
   }
+  .bangla{
+	font-family: 'Hind Siliguri', sans-serif;
+  }
 
-
-
-
-  /* Footer Css */
+/* Footer Css */
 
 footer{
 	background-color: #0b0c0e;
@@ -237,8 +213,6 @@ hr.new1 {
 	/* text-decoration: underline !important; */
 	/* color: #121417 !important; */
 }
-
-
 
 
 /* syntax highlighter */

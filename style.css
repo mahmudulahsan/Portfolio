@@ -270,7 +270,7 @@ hr.new1 {
 }
 @media(max-width: 680px){
 	.printf, .punc, .main-return, .comment, .number, .text, .int{
-		font-size: 13px;
+		font-size: 15px;
 	  }
 }
 
